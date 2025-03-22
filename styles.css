@@ -1,0 +1,828 @@
+
+html,body {
+ margin: 0;
+ padding: 0;
+ height: auto;
+}
+
+
+.main-header {
+ width: 100%;
+ height: 80px;
+ background-color:#1AC073;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* Inner Box */
+.inner-box {
+ width: 100%;
+ height: 24px;
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ margin-top: 6px;
+ 
+}
+
+/* Left Section */
+.left-section {
+ font-size: 24px; 
+ font-weight: bold;
+ color:white; 
+}
+
+/* Middle Section */
+.middle-section nav {
+ display: flex;
+ gap: 30px; 
+}
+
+.middle-section nav a {
+ font-family: Roboto,sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+ text-decoration: none;
+ color: white; 
+ font-size: 20px; 
+}
+
+/* Right Section */
+.right-section {
+ display: flex;
+ gap: 20px; 
+}
+
+.right-section .icon {
+ width: 20px; 
+ height: 20px; 
+ cursor: pointer;
+}
+
+.cart-container {
+ position: relative;
+ display: inline-block;
+}
+
+.cart-badge {
+ width: 8px; 
+ height: 8px;
+ position: absolute;
+ top: 1px; 
+ right: -2px; 
+}
+
+
+
+
+.cart-page {
+  display: none; 
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1336px;
+  height: 1000px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 1000;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Content */
+.cart-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.empty-cart-image {
+  width: 197px;
+  height: 225px;
+  margin-bottom: 20px;
+}
+
+.cart-content h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 39px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.cart-content p {
+  font-size: 29px;
+  color: #555555;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.cart-content button {
+  width: 200px;
+  height: 55px;
+  background-color: #1AC073;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/* Landing Section */
+.landing-section { 
+ height: 710px; 
+ display: flex;
+
+ align-items: center;
+ justify-content: space-between;
+ padding: 0px 150px; 
+ background-color: #1AC073;
+}
+
+/* Left Box */
+.left-box {
+ width: 50%; 
+ max-width: 600px; 
+ margin-bottom: 140px;
+}
+
+.left-box h1 {
+ font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 82.03px;
+ color: white; 
+ margin-bottom: 20px;
+}
+
+.left-box p {
+ font-family: Roboto;
+font-size: 19px;
+font-weight: 400;
+line-height: 20px;
+ color: white; 
+ margin-bottom: 30px;
+ width: 410px;
+}
+
+/* Search Bar */
+.search-bar {
+ display: flex;
+ align-items: center;
+ height: 70px;
+}
+
+.search-bar input {
+ width: 45%; 
+ height: 30px;
+ padding: 12px;
+ border: 1px;
+ color: #ffffff;
+
+ border-radius: 8px 0px 0px 8px;
+ font-family: Roboto,sans-serif;
+font-size: 17px;
+
+}
+
+.search-bar button {
+ padding: 12px 24px;
+ background-color: #F3BA00;
+ height: 55px; 
+ color: white;
+ border: none;
+ border-radius: 0px 8px 8px 0px;
+ cursor: pointer;
+ font-size: 16px;
+}
+
+/* Right Box (Image) */
+.right-box {
+ width: 40%; 
+ max-width: 500px;
+ width: 521.63px;
+ height: 525px;
+}
+
+.right-box img {
+ 
+ height: auto;
+ border-radius: 12px; 
+ margin-top: 50px;
+ 
+}
+
+
+
+
+
+
+
+/* Kitchen Section */
+.kitchen-section {
+ width: 1180px; 
+ margin: 0 auto; 
+ padding: 40px 0; 
+ background-color: #ffffff; 
+}
+
+/* Section Title */
+.section-title h2 {
+ font-size: 32px; 
+ color: #000000; 
+ margin-bottom: 40px;
+ font-family: 'Roboto';
+}
+
+/* Cards Container */
+.cards {
+ width: 100%;
+ height: 1131px; 
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px; 
+}
+
+/* Individual Card */
+.card {
+ width: 277px; 
+ height: 290px; 
+ border: 1px solid #e0e0e0; 
+ border-radius: 12px; 
+ overflow: hidden; 
+ background-color: #f9f9f9;
+}
+
+.card img {
+ width: 100%;
+ height: 200px; 
+ object-fit: cover; 
+}
+
+.card-content {
+ padding: 16px;
+}
+
+/* Food Name */
+.food-name {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 18px; 
+ color: #000000; 
+ margin-bottom: 10px;
+}
+
+/* Food Details */
+.food-details {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+ color: #555555;
+}
+
+.food-details img {
+ width: auto; 
+    height: 20px; 
+    object-fit: contain; 
+}
+
+
+
+
+
+
+/* Second Popular Items Section */
+.second-popular-items {
+ width: 1178px; 
+ height: 410px; 
+ margin: 0 auto; 
+ text-align: center; 
+ padding: 20px 0; 
+}
+
+/* Section Title */
+.second-popular-items h2 {
+ font-size: 42px; 
+ color: #000000;
+ margin-bottom: 50px;
+ margin-top: 10px;
+}
+
+/* Second Cards Container */
+.second-cards-container {
+ width: 1178px; 
+ height: 337px; 
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+}
+
+/* Second Navigation Buttons */
+.second-nav-button {
+ background: none;
+ border: none;
+ cursor: pointer;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* Left Arrow (Larger) */
+#second-left-button img {
+ width: 75px; 
+ height: 75px; 
+ transform: rotate(360deg); 
+}
+
+/* Right Arrow (Smaller) */
+#second-right-button img {
+ width: 90px; 
+ height: 90px; 
+}
+
+/* Second Cards */
+.second-cards {
+ display: flex;
+ gap: 20px; 
+ width: 100%;
+ justify-content: center;
+}
+
+/* Second Individual Card */
+.second-card {
+ width: 290px;
+ height: 350px; 
+ border: 1px solid #e0e0e0; 
+ border-radius: 12px; 
+ overflow: hidden; 
+ background-color: #f9f9f9;
+ transition: box-shadow 0.3s ease; 
+}
+
+/* Middle Card Box Shadow */
+.second-card:nth-child(2) {
+ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.second-card img {
+ width: 100%;
+ height: 250px; 
+ object-fit: cover; 
+}
+
+.second-card-content {
+ padding: 16px;
+}
+
+/* Second Food Name */
+.second-food-name {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 18px; 
+ color: #000000; 
+ margin-bottom: 10px;
+}
+
+/* Second Food Details */
+.second-food-details {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.second-food-details img {
+ width: auto;
+ height: 20px; 
+ object-fit: contain;
+}
+
+
+
+/* Request a Dish Button */
+.request-dish-button {
+ width: 210px;
+ height: 48px;
+ background-color: #1AC073;
+ color: #ffffff;
+ border: none;
+ border-radius: 8px;
+ font-size: 16px;
+ cursor: pointer;
+ margin: 100px auto 90px 600px;
+}
+
+/* Modal */
+.request-dish-modal, .modal {
+ display: none;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.7);
+ justify-content: center;
+ align-items: center;
+ z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+ width: 1250px; 
+ height: 600px;
+ max-height: 1100px;
+ background-color: #ffffff;
+ border-radius: 18px;
+ padding: 40px;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ margin: 130px auto;
+}
+
+/* Modal Header */
+.modal-content h1 {
+ font-size: 42px;
+ color: #000000;
+ margin-bottom: 20px;
+}
+
+/* Input Box */
+.input-box {
+ width: 100%; 
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ align-items: center; 
+ justify-content: center; 
+ text-align: center;
+ margin-left: 120px;
+ margin-top: 70px;
+}
+
+
+
+/* Input Field */
+.input-field {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 5px;
+ width: 100%;
+ 
+ 
+}
+
+.input-field label {
+ font-size: 16px;
+ color: #000000;
+ 
+}
+
+.input-field input {
+ width: 90%;
+ height: 28px;
+ padding: 12px;
+ border: 1px;
+ border-radius: 8px;
+ font-size: 13px;
+ background-color: #f3f0f0;
+
+}
+
+.input-field input[type="file"] {
+ padding: 10px;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+ width: 38%;
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+ margin-top: 90px;
+}
+
+.modal-buttons button {
+ width: 48%;
+ height: 56px;
+ border: none;
+ border-radius: 8px;
+ font-size: 16px;
+ cursor: pointer;
+ border: 2px solid #1AC073;
+ 
+}
+
+/* Cancel Button */
+.cancel-button {
+ background-color: #f0f0f0;
+ color: #1AC073;
+}
+
+/* Submit Button */
+.submit-button {
+ background-color: #1AC073;
+ color: #ffffff;
+}
+
+/* Empty Cart Image */
+.empty-cart-image {
+ width: 197px;
+ height: 225px;
+ object-fit: cover;
+}
+
+/* Back to Menu Button */
+.back-to-menu {
+ width: 96px;
+ height: 30px;
+ background-color: #ff6347;
+ color: #ffffff;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 14px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+
+
+
+.rectangle{
+ margin-bottom: 70px;
+ border: none;
+ width: 100%;
+}
+.home-cooked-food {
+ text-align: center;
+ padding: 30px;
+ margin-top: 5px;
+position:relative;
+ padding-bottom: 20px;
+}
+
+.home-cooked-food h1 {
+ font-size: 3em;
+ margin-bottom: 10px;
+}
+
+.home-cooked-food p {
+ font-size: 1.2em;
+ margin-bottom: 60px;
+}
+
+
+.video-container {
+ position: relative;
+ width: 890px;
+ height: 460px;
+ margin: 0 auto;
+ z-index: 2; 
+}
+
+.video {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.play-button {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 2em;
+ background: none;
+ border: none;
+ cursor: pointer;
+ z-index: 1;
+}
+.play-button img{
+ 
+ border-radius: 50%;
+ height: 80px;
+ width: 80px;
+}
+.play-button:focus {
+ outline: none;
+}
+
+.home-cooked-food::after {
+ content: '';
+ position: absolute;
+ top: calc(50% + 110px); 
+ left: 0;
+ width: 100%;
+ height: 400px; 
+ background-color: #C7EACC; 
+ z-index: 1; 
+}
+
+
+
+/* Contact Us Section */
+.contact-us {
+ width: 1440px;
+ height: 730px; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #efefef;
+ 
+}
+
+/* Inner Container */
+.inner-container {
+ width: 1181px; 
+ height: 403px; 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 30px; 
+}
+
+/* Left Box */
+.left-box {
+ width: 575px; 
+ height: 403px; 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+
+/* Text Box */
+.text-box {
+ width: 280px; 
+ height: 383px; 
+}
+
+.text-box h1 {
+ font-size: 24px; 
+ color: #000000; 
+ margin-bottom: -10px;
+ line-height: normal;
+}
+
+.text-box p {
+ font-size: 16px; 
+ color: #555555; 
+}
+
+/* Form Box */
+.form-box {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 15px; 
+}
+
+.input-row {
+ display: flex;
+ justify-content: space-between;
+ gap: 15px;
+}
+
+.input-row input {
+ width: 48%; 
+ padding: 20px;
+ border: 0.5px solid #cccccc;
+ border-radius: 8px;
+ font-size: 16px;
+ 
+}
+
+.form-box textarea {
+ width: 96%;
+ height: 150px; 
+ padding: 12px;
+ border: 0.5px solid #cccccc;
+ border-radius: 8px;
+ font-size: 16px;
+ resize: none;
+}
+
+.form-box button {
+ padding: 16px 24px;
+ background-color: #1AC073; 
+ color: #ffffff;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin-right: 380px;
+}
+
+/* Right Box (Image) */
+.right-box {
+ width: 575px; 
+ height: 403px; 
+ margin-bottom: 190px;
+}
+
+.right-box img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; 
+ border-radius: 12px; 
+}
+
+
+
+/* footer section */
+
+.container{
+ margin-left:70px;
+ margin-right: 70px;
+ 
+}
+
+footer{
+ background-color: #1AC073;
+ height: 110px;
+ 
+}
+.footer-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 30px;
+ color: white;
+ margin-top: -40px;
+}
+.footer-right {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+hr{
+ display: block;
+ margin-top: 1rem;
+ border-width: 1px;
+ color: #F0FAF7;
+}
+.facebook-icon img, .instagram-icon img{
+ border-radius: 5px;
+ width: 28px;
+ height: 26px;
+}
+
+
+.logo {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+nav ul {
+ list-style: none;
+ display: flex;
+ gap: 25px;
+ padding: 0;
+ margin: 0;
+}
+
+nav ul li {
+ display: inline;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+

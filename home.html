@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGeats Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+ <header class="main-header">
+  <div class="inner-box">
+    <div class="left-section">BestRestaurant</div>
+    <div class="middle-section">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    <div class="right-section">
+      <img src="Images/Card.png" alt="Search" class="icon">
+
+
+<!-- Cart Page (Hidden by Default) -->
+<div id="cart-page" class="cart-page">
+  <div class="cart-content">
+    <img src="Images/addtocart.png" alt="Empty Cart" class="empty-cart-image">
+    <h1>Cart is Empty</h1>
+    <p>Add some items to the cart to checkout</p>
+    <button class="cart-button" onclick="closeCart()">Back to Menu</button>
+  </div>
+</div>
+
+<!-- Cart Icon with Badge -->
+<div class="cart-container">
+ <img src="Images/Card2.png" alt="Cart" class="icon" onclick="openCart()">
+ <img src="Images/Elli.png" alt="Notification" class="cart-badge">
+</div>
+</header>
+
+
+
+
+<section class="landing-section">
+ <!-- Left Box -->
+ <div class="left-box">
+   <h1>Authentic Home food in India</h1>
+   <p>JTGeats is a courier service in which authentic home cook food is delivered to customer.</p>
+   <div class="search-bar">
+     <input type="text" placeholder="Search food you love" />
+     <button>Search</button>
+   </div>
+ </div>
+
+ <!-- Right Box (Image) -->
+ <div class="right-box">
+   <img src="Images/cuate.png" alt="Authentic Home Food" />
+ </div>
+</section>
+
+
+
+<section class="kitchen-section">
+ <!-- Section Title -->
+ <div class="section-title">
+   <h2>HOME KITCHEN</h2>
+ </div>
+
+ <!-- Cards Container -->
+ <div class="cards">
+   <!-- Card 1 -->
+   <div class="card">
+     <img src="Images/c1.png" alt="Home Made Pizza" />
+     <div class="card-content">
+       <div class="food-name">
+         <span>Home made pizza</span>
+         <span>$100</span>
+       </div>
+       <div class="food-details">
+        <img src="Images/rating.png" alt="Icon" />
+         <img src="Images/plus.png" alt="Icon" />
+       </div>
+     </div>
+   </div>
+
+   
+   <!-- Card 2 -->
+   <div class="card">
+     <img src="Images/c2.png" alt="Home Made Pizza" />
+     <div class="card-content">
+       <div class="food-name">
+         <span>Home made pizza</span>
+         <span> $150</span>
+       </div>
+       <div class="food-details">
+        <img src="Images/rating.png" alt="Icon" />
+         <img src="Images/plus.png" alt="Icon" />
+       </div>
+     </div>
+   </div>
+
+   
+   <div class="card">
+    <img src="Images/c3.png" alt="Home Made Pizza" />
+    <div class="card-content">
+      <div class="food-name">
+        <span>Home made pizza</span>
+        <span> $120</span>
+      </div>
+      <div class="food-details">
+       <img src="Images/rating.png" alt="Icon" />
+        <img src="Images/plus.png" alt="Icon" />
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+   <img src="Images/c4.png" alt="Home Made Pizza" />
+   <div class="card-content">
+     <div class="food-name">
+       <span>Home made pizza</span>
+       <span>$290</span>
+     </div>
+     <div class="food-details">
+      <img src="Images/rating.png" alt="Icon" />
+       <img src="Images/plus.png" alt="Icon" />
+     </div>
+   </div>
+ </div>
+
+ 
+ <div class="card">
+  <img src="Images/c5.png" alt="Home Made Pizza" />
+  <div class="card-content">
+    <div class="food-name">
+      <span>Home made pizza</span>
+      <span>$90</span>
+    </div>
+    <div class="food-details">
+     <img src="Images/rating.png" alt="Icon" />
+      <img src="Images/plus.png" alt="Icon" />
+    </div>
+  </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c6.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$110</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c7.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$120</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c8.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$160</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c9.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$120</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c10.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$150</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c11.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$160</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+
+<div class="card">
+ <img src="Images/c12.png" alt="Home Made Pizza" />
+ <div class="card-content">
+   <div class="food-name">
+     <span>Home made pizza</span>
+     <span>$180</span>
+   </div>
+   <div class="food-details">
+    <img src="Images/rating.png" alt="Icon" />
+     <img src="Images/plus.png" alt="Icon" />
+   </div>
+ </div>
+</div>
+
+</section>
+
+
+
+
+<!-- Second Popular Items Section -->
+<div class="second-popular-items">
+ <h2>Popular Items</h2>
+ <div class="second-cards-container">
+   
+   <button id="second-left-button" class="second-nav-button">
+     <img src="Images/Arrow 2.png" alt="Left Arrow">
+   </button>
+
+   <div class="second-cards">
+     <div class="second-card">
+       <img src="Images/c13.png" alt="Home Made Pizza" />
+       <div class="second-card-content">
+         <div class="second-food-name">
+           <span>Home made pizza</span>
+           <span>$290</span>
+         </div>
+         <div class="second-food-details">
+           <img src="Images/rating.png" alt="Rating" />
+           <img src="Images/fan.png" alt="Add to Cart" />
+         </div>
+       </div>
+     </div>
+     <div class="second-card">
+       <img src="Images/c14.png" alt="Tandoori Chicken" />
+       <div class="second-card-content">
+         <div class="second-food-name">
+           <span>Tandoori Chicken</span>
+           <span>$180</span>
+         </div>
+         <div class="second-food-details">
+           <img src="Images/rating.png" alt="Rating" />
+           <img src="Images/plus.png" alt="Add to Cart" />
+         </div>
+       </div>
+     </div>
+
+     <div class="second-card">
+       <img src="Images/c15.png" alt="Chilli Chicken" />
+       <div class="second-card-content">
+         <div class="second-food-name">
+           <span>Chilli Chicken</span>
+           <span>$200</span>
+         </div>
+         <div class="second-food-details">
+           <img src="Images/rating.png" alt="Rating" />
+           <img src="Images/plus.png" alt="Add to Cart" />
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <button id="second-right-button" class="second-nav-button">
+     <img src="Images/Arrow.png" alt="Right Arrow">
+   </button>
+ </div>
+</div>
+
+
+
+
+<!-- Request a Dish Button -->
+<button id="request-dish-button" class="request-dish-button">Request a Dish</button>
+
+
+<div id="request-dish-modal" class="request-dish-modal">
+  <div class="modal-content">
+   
+    <h1>Request a Dish</h1>
+
+  
+    <div class="input-box">
+     
+      <div class="input-field">
+        <label for="dish-name">Name*</label>
+        <input
+          type="text"
+          id="dish-name"
+          placeholder="Enter the name of the dish"
+        />
+      </div>
+
+     
+      <div class="input-field">
+        <label for="dish-image">Upload the image</label>
+        <input
+          type="file"
+          id="dish-image"
+          accept="image/*"
+        />
+      </div>
+    </div>
+
+   
+    <div class="modal-buttons">
+      <button id="cancel-button" class="cancel-button">Cancel</button>
+      <button id="submit-button" class="submit-button">Submit Request</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="rectangle">
+  <section class="home-cooked-food">
+    <h1>We are providing the best<br> home-cooked food delivery service.</h1>
+    <p>Away from home and craving tasty homemade recipes?<br> Choose from a selection of our delicious home-cooked dishes.</p>
+    <div class="video-container">
+      <video id ="video" class="video" src="Videos/food.mp4" controls  poster="Images/row.png"></video>
+      <button id="play-button" class="play-button"><img src="Images/Arrow.png"></button>
+    </div>
+  </section>
+  </div>
+
+
+ 
+<section class="contact-us">
+ 
+ <div class="inner-container">
+   
+   <div class="left-box">
+    
+     <span class="text-box">
+       <h1>Do you have a question or want to become seller?</h1>
+       <p>Fill this form and our manager will contact you next 48 hours.</p>
+     </span>
+    
+     <div class="form-box">
+       <div class="input-row">
+         <input type="text" placeholder="Your Name" />
+         <input type="email" placeholder="Your Email" />
+       </div>
+       <span></span>
+       <textarea placeholder="Your Message"></textarea>
+       <button>Submit</button>
+     </div>
+   </div>
+
+   
+   <div class="right-box">
+     <img src="Images/boy.png" alt="Contact Us" />
+   </div>
+ </div>
+</section>
+
+
+<footer>
+ <div class="container">
+ <div class="footer-container">
+ <div class="logo">JTGeats</div>
+     <nav>
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Menu</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Contact</a></li>
+         </ul>
+     </nav>
+     <div class="footer-right">
+         <a href="#" class="facebook-icon"><img src="/images/ig.png"></a>
+         <a href="#" class="instagram-icon"><img src="images/fb.png" ></a>
+     </div>
+     
+ </div>
+ <hr>
+ </div>
+</footer>
+</body>
+</html>
