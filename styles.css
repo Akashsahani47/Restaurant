@@ -15,7 +15,7 @@ html,body {
  justify-content: center;
 }
 
-/* Inner Box */
+
 .inner-box {
  width: 100%;
  height: 24px;
@@ -26,14 +26,14 @@ html,body {
  
 }
 
-/* Left Section */
+
 .left-section {
  font-size: 24px; 
  font-weight: bold;
  color:white; 
 }
 
-/* Middle Section */
+
 .middle-section nav {
  display: flex;
  gap: 30px; 
@@ -49,7 +49,7 @@ line-height: 20px;
  font-size: 20px; 
 }
 
-/* Right Section */
+
 .right-section {
  display: flex;
  gap: 20px; 
@@ -93,7 +93,7 @@ line-height: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Cart Content */
+
 .cart-content {
   width: 100%;
   height: 100%;
@@ -145,7 +145,7 @@ line-height: 20px;
 
 
 
-/* Landing Section */
+
 .landing-section { 
  height: 710px; 
  display: flex;
@@ -156,7 +156,7 @@ line-height: 20px;
  background-color: #1AC073;
 }
 
-/* Left Box */
+
 .left-box {
  width: 50%; 
  max-width: 600px; 
@@ -182,7 +182,7 @@ line-height: 20px;
  width: 410px;
 }
 
-/* Search Bar */
+
 .search-bar {
  display: flex;
  align-items: center;
@@ -213,7 +213,7 @@ font-size: 17px;
  font-size: 16px;
 }
 
-/* Right Box (Image) */
+
 .right-box {
  width: 40%; 
  max-width: 500px;
@@ -235,7 +235,7 @@ font-size: 17px;
 
 
 
-/* Kitchen Section */
+
 .kitchen-section {
  width: 1180px; 
  margin: 0 auto; 
@@ -243,7 +243,7 @@ font-size: 17px;
  background-color: #ffffff; 
 }
 
-/* Section Title */
+
 .section-title h2 {
  font-size: 32px; 
  color: #000000; 
@@ -251,7 +251,7 @@ font-size: 17px;
  font-family: 'Roboto';
 }
 
-/* Cards Container */
+
 .cards {
  width: 100%;
  height: 1131px; 
@@ -260,7 +260,7 @@ font-size: 17px;
  gap: 20px; 
 }
 
-/* Individual Card */
+
 .card {
  width: 277px; 
  height: 290px; 
@@ -280,7 +280,7 @@ font-size: 17px;
  padding: 16px;
 }
 
-/* Food Name */
+
 .food-name {
  display: flex;
  justify-content: space-between;
@@ -290,7 +290,7 @@ font-size: 17px;
  margin-bottom: 10px;
 }
 
-/* Food Details */
+
 .food-details {
  display: flex;
  justify-content: space-between;
@@ -310,7 +310,7 @@ font-size: 17px;
 
 
 
-/* Second Popular Items Section */
+
 .second-popular-items {
  width: 1178px; 
  height: 410px; 
@@ -319,7 +319,7 @@ font-size: 17px;
  padding: 20px 0; 
 }
 
-/* Section Title */
+
 .second-popular-items h2 {
  font-size: 42px; 
  color: #000000;
@@ -327,7 +327,7 @@ font-size: 17px;
  margin-top: 10px;
 }
 
-/* Second Cards Container */
+
 .second-cards-container {
  width: 1178px; 
  height: 337px; 
@@ -337,7 +337,7 @@ font-size: 17px;
  position: relative;
 }
 
-/* Second Navigation Buttons */
+
 .second-nav-button {
  background: none;
  border: none;
@@ -348,20 +348,19 @@ font-size: 17px;
  justify-content: center;
 }
 
-/* Left Arrow (Larger) */
+
 #second-left-button img {
  width: 75px; 
  height: 75px; 
  transform: rotate(360deg); 
 }
 
-/* Right Arrow (Smaller) */
 #second-right-button img {
  width: 90px; 
  height: 90px; 
 }
 
-/* Second Cards */
+
 .second-cards {
  display: flex;
  gap: 20px; 
@@ -369,7 +368,7 @@ font-size: 17px;
  justify-content: center;
 }
 
-/* Second Individual Card */
+
 .second-card {
  width: 290px;
  height: 350px; 
@@ -380,7 +379,7 @@ font-size: 17px;
  transition: box-shadow 0.3s ease; 
 }
 
-/* Middle Card Box Shadow */
+
 .second-card:nth-child(2) {
  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -395,7 +394,7 @@ font-size: 17px;
  padding: 16px;
 }
 
-/* Second Food Name */
+
 .second-food-name {
  display: flex;
  justify-content: space-between;
@@ -405,7 +404,7 @@ font-size: 17px;
  margin-bottom: 10px;
 }
 
-/* Second Food Details */
+
 .second-food-details {
  display: flex;
  justify-content: space-between;
@@ -420,7 +419,7 @@ font-size: 17px;
 
 
 
-/* Request a Dish Button */
+
 .request-dish-button {
  width: 210px;
  height: 48px;
@@ -433,7 +432,7 @@ font-size: 17px;
  margin: 100px auto 90px 600px;
 }
 
-/* Modal */
+
 .request-dish-modal, .modal {
  display: none;
  position: fixed;
@@ -447,7 +446,7 @@ font-size: 17px;
  z-index: 1000;
 }
 
-/* Modal Content */
+
 .modal-content {
  width: 1250px; 
  height: 600px;
@@ -463,14 +462,14 @@ font-size: 17px;
  margin: 130px auto;
 }
 
-/* Modal Header */
+
 .modal-content h1 {
  font-size: 42px;
  color: #000000;
  margin-bottom: 20px;
 }
 
-/* Input Box */
+
 .input-box {
  width: 100%; 
  display: flex;
@@ -485,7 +484,7 @@ font-size: 17px;
 
 
 
-/* Input Field */
+
 .input-field {
  display: flex;
  flex-direction: column;
@@ -517,7 +516,7 @@ font-size: 17px;
  padding: 10px;
 }
 
-/* Modal Buttons */
+
 .modal-buttons {
  width: 38%;
  display: flex;
@@ -537,26 +536,26 @@ font-size: 17px;
  
 }
 
-/* Cancel Button */
+
 .cancel-button {
  background-color: #f0f0f0;
  color: #1AC073;
 }
 
-/* Submit Button */
+
 .submit-button {
  background-color: #1AC073;
  color: #ffffff;
 }
 
-/* Empty Cart Image */
+
 .empty-cart-image {
  width: 197px;
  height: 225px;
  object-fit: cover;
 }
 
-/* Back to Menu Button */
+
 .back-to-menu {
  width: 96px;
  height: 30px;
@@ -645,7 +644,7 @@ position:relative;
 
 
 
-/* Contact Us Section */
+
 .contact-us {
  width: 1440px;
  height: 730px; 
@@ -656,7 +655,7 @@ position:relative;
  
 }
 
-/* Inner Container */
+
 .inner-container {
  width: 1181px; 
  height: 403px; 
@@ -666,7 +665,7 @@ position:relative;
  gap: 30px; 
 }
 
-/* Left Box */
+
 .left-box {
  width: 575px; 
  height: 403px; 
@@ -676,7 +675,7 @@ position:relative;
 
 }
 
-/* Text Box */
+
 .text-box {
  width: 280px; 
  height: 383px; 
@@ -694,7 +693,7 @@ position:relative;
  color: #555555; 
 }
 
-/* Form Box */
+
 .form-box {
  width: 100%;
  display: flex;
@@ -738,7 +737,7 @@ position:relative;
  margin-right: 380px;
 }
 
-/* Right Box (Image) */
+
 .right-box {
  width: 575px; 
  height: 403px; 
@@ -754,7 +753,7 @@ position:relative;
 
 
 
-/* footer section */
+
 
 .container{
  margin-left:70px;
